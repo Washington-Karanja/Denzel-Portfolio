@@ -14,7 +14,6 @@ export default function ExperiencePage() {
         </div>
         <a
           href="/resume.pdf"
-          onClick={e => e.preventDefault()}
           download
           aria-label="Download résumé as PDF"
           className="group inline-flex items-center gap-2 px-4 py-2.5 border border-neutral-200 dark:border-white/[0.1] text-[13px] font-medium rounded-md hover:bg-neutral-50 dark:hover:bg-white/[0.04] hover:border-neutral-300 dark:hover:border-white/[0.18] transition-all shrink-0"

@@ -2,7 +2,7 @@ import { projects } from '@/data/projects';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 
 const SKILLS = [
-  'React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Vite',
+  'React', 'TypeScript', 'Next.js', 'Tailwind CSS',
   'Framer Motion', 'React Query', 'Zustand', 'GraphQL', 'REST APIs',
   'Figma', 'Storybook', 'Node.js', 'PostgreSQL', 'Git',
 ];
@@ -64,7 +64,7 @@ export default function AboutPage() {
         <AnimatedSection delay={0.14} className="space-y-8">
           <div className="aspect-[4/5] bg-neutral-100 dark:bg-[#111] rounded-xl overflow-hidden border border-neutral-200 dark:border-white/[0.06]">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=750&fit=crop&auto=format&q=80"
+              src="/washington-karanja.jpg"
               alt="Washington Karanja"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
               loading="lazy"
